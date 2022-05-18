@@ -1,0 +1,30 @@
+.App {
+  text-align: center;
+}
+.todo{
+  width: calc(100%,-20px);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color:burlywood;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.lists{
+  margin: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #f0f0f0;
+}
+
+.text{
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+}
